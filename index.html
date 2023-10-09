@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piroll</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="banner">
+        <div class="container">
+            <header class="header">
+                <a href="#" class="logo">
+                    <img src="img/logo.svg" alt="Logo" class="logo-image">
+                </a>
+                <div class="burger-menu-container">
+                    <div class="burger-menu">
+                        <div class="burger-line"></div>
+                        <div class="burger-line"></div>
+                        <div class="burger-line"></div>
+                    </div>
+                </div>
+                <!-- /.burger-menu-container -->
+                <nav class="main-nav">
+                    <ul class="list">
+                        <li class="item active">home</li>
+                        <li class="item">about</li>
+                        <li class="item">work</li>
+                        <li class="item">process</li>
+                        <li class="item">services</li>
+                        <li class="item">testimonials</li>
+                        <li class="item">contact</li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- /.header -->
+            <div class="info-container">
+                <div class="info">
+                    <h2 class="info-title">We Design and Develop</h2>
+                    <p class="info-description">We are a new design studio
+                        based
+                        in
+                        USA.
+                        We have
+                        over
+                        20 years of combined experience, and know a thing or
+                        two
+                        about designing websites and mobile apps.</p>
+                    <button id="showContactForm" class="button">Contact
+                        us</button>
+                </div>
+                <!-- /.info -->
+                <div class="overlay" id="overlay"></div>
+                <div class="form-container" id="formContainer">
+                    <button class="close-button" id="closeForm">&times;</button>
+                    <div class="contact-form" id="contactForm">
+                        <form>
+                            <input type="text" name="name" required
+                                placeholder="Your Name">
+                            <input type="tel" name="phone" required
+                                placeholder="Your Phone">
+                            <textarea name="message" required
+                                placeholder="Your Message"></textarea>
+                            <button class="button" type="submit">Submit</button>
+                        </form>
+                    </div>
+                    <!-- /.contact-form -->
+                </div>
+                <!-- /.form-container -->
+            </div>
+            <!-- /.info-container -->
+        </div>
+        <!-- /.banner-container -->
+    </section>
+    <!-- /.banner -->
+    <section class="about">
+        <div class="container">
+            <div class="about-us">
+                <h3 class="about-title">About Us</h3>
+                <p class="about-description">Divide have don't man wherein
+                    air
+                    fourth. Own
+                    itself make have night won't make.
+                    A you under Seed appear which good give. Own give air
+                    without fowl moveth
+                    dry first
+                    heaven fruit, dominion she'd won't very all.</p>
+                <div class="signature">
+                    <img src="img/signature.png" alt="Signature"
+                        class="image-signature">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.about -->
+    <section class="skills">
+        <div class="container">
+            <div class="skills-content">
+                <h3 class="skills-title">Professional Skills</h3>
+                <div class="progress-bar">
+                    <h4 class="progress-title">UI/UX Design 75%</h4>
+                    <img src="img/progress-line.png" alt="Progress line"
+                        class="progress-image">
+                </div>
+                <div class="progress-bar">
+                    <h4 class="progress-title">web development 90%</h4>
+                    <img src="img/progress-line-2.png" alt="Progress line"
+                        class="progress-image">
+                </div>
+                <div class="progress-bar">
+                    <h4 class="progress-title">marketing 65%</h4>
+                    <img src="img/progress-line-3.png" alt="Progress line"
+                        class="progress-image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.skills -->
+    <section class="numbers">
+        <div class="container">
+            <div class="numbers-container">
+                <div class="number__item">
+                    <img src="img/portfolio.png" alt="" class="number__image">
+                    <div class="number__text-container">
+                        <h3 class="number__title">548</h3>
+                        <span class="number__text">projects completed</span>
+                    </div>
+                </div>
+                <div class="number__item">
+                    <img src="img/clock.png" alt="" class="number__image">
+                    <div class="number__text-container">
+                        <h3 class="number__title">1465</h3>
+                        <span class="number__text">WORKING HOURS</span>
+                    </div>
+                </div>
+                <div class="number__item">
+                    <img src="img/star.png" alt="" class="number__image">
+                    <div class="number__text-container">
+                        <h3 class="number__title">612</h3>
+                        <span class="number__text">POSITIVE FEEDBACKS</span>
+                    </div>
+                </div>
+                <div class="number__item">
+                    <img src="img/like.png" alt="" class="number__image">
+                    <div class="number__text-container">
+                        <h3 class="number__title">735</h3>
+                        <span class="number__text">HAPPY CLIENTS</span>
+                    </div>
+                </div>
+            </div>
+            <!-- /.numbers-container -->
+        </div>
+    </section>
+    <!-- /.numbers -->
+    <section class="work-container">
+        <div class="work__gallery">
+            <div class="work__image-container">
+                <img src="img/right-image.jpg" alt="Image" class="work__image">
+                <a href="#" class="work__button open">
+                    <img src="img/look.png" alt="Button"
+                        class="work__button-image">
+                </a>
+            </div>
+            <!-- /.work__image-container -->
+            <div class="work__image-container">
+                <img src="img/right-image-2.jpg" alt="Image"
+                    class="work__image">
+                <a href="#" class="work__button open">
+                    <img src="img/look.png" alt="Button"
+                        class="work__button-image">
+                </a>
+            </div>
+            <!-- /.work__image-container -->
+            <div class="work__image-container">
+                <img src="img/right-image-3.jpg" alt="Image"
+                    class="work__image">
+                <a href="#" class="work__button open">
+                    <img src="img/look.png" alt="Button"
+                        class="work__button-image">
+                </a>
+            </div>
+            <!-- /.work__image-container -->
+            <div class="work__image-container">
+                <img src="img/right-image-4.jpg" alt="Image"
+                    class="work__image">
+                <a href="#" class="work__button open">
+                    <img src="img/look.png" alt="Button"
+                        class="work__button-image">
+                </a>
+            </div>
+            <!-- /.work__image-container -->
+            <div class="work__image-container">
+                <img src="img/right-image-5.jpg" alt="Image"
+                    class="work__image">
+                <a href="#" class="work__button open">
+                    <img src="img/look.png" alt="Button"
+                        class="work__button-image">
+                </a>
+            </div>
+            <!-- /.work__image-container -->
+            <div class="work__image-container">
+                <img src="img/right-image-6.jpg" alt="Image"
+                    class="work__image">
+                <a href="#" class="work__button open">
+                    <img src="img/look.png" alt="Button"
+                        class="work__button-image">
+                </a>
+            </div>
+            <!-- /.work__image-container -->
+            <div class="work__image-container">
+                <img src="img/right-image-5.jpg" alt="Image"
+                    class="work__image">
+                <a href="#" class="work__button open">
+                    <img src="img/look.png" alt="Button"
+                        class="work__button-image">
+                </a>
+            </div>
+            <!-- /.work__image-container -->
+            <div class="work__image-container">
+                <img src="img/right-image-2.jpg" alt="Image"
+                    class="work__image">
+                <a id="open" href="#" class="work__button open">
+                    <img src="img/look.png" alt="Button"
+                        class="work__button-image">
+                </a>
+            </div>
+            <!-- /.work__image-container -->
+            <div class="work__image-container">
+                <img src="img/right-image-4.jpg" alt="Image"
+                    class="work__image">
+                <a href="#" class="work__button open">
+                    <img src="img/look.png" alt="Button"
+                        class="work__button-image">
+                </a>
+            </div>
+            <!-- /.work__image-container -->
+            <div class="work__image-container">
+                <img src="img/right-image-5.jpg" alt="Image"
+                    class="work__image">
+                <a href="#" class="work__button open">
+                    <img src="img/look.png" alt="Button"
+                        class="work__button-image">
+                </a>
+            </div>
+            <!-- /.work__image-container -->
+            <div class="work__image-container">
+                <img src="img/right-image.jpg" alt="Image" class="work__image">
+                <a href="#" class="work__button open">
+                    <img src="img/look.png" alt="Button"
+                        class="work__button-image">
+                </a>
+            </div>
+            <!-- /.work__image-container -->
+            <div class="work__image-container">
+                <img src="img/right-image-3.jpg" alt="Image"
+                    class="work__image">
+                <a href="#" class="work__button open">
+                    <img src="img/look.png" alt="Button"
+                        class="work__button-image">
+                </a>
+            </div>
+            <!-- /.work__image-container -->
+            <div class="work__image-container">
+                <img src="img/right-image.jpg" alt="Image" class="work__image">
+                <a href="#" class="work__button open">
+                    <img src="img/look.png" alt="Button"
+                        class="work__button-image">
+                </a>
+            </div>
+            <!-- /.work__image-container -->
+            <div class="work__image-container">
+                <img src="img/right-image-2.jpg" alt="Image"
+                    class="work__image">
+                <a href="#" class="work__button open">
+                    <img src="img/look.png" alt="Button"
+                        class="work__button-image">
+                </a>
+            </div>
+            <!-- /.work__image-container -->
+            <div class="work__image-container">
+                <img src="img/right-image-6.jpg" alt="Image"
+                    class="work__image">
+                <a href="#" class="work__button open">
+                    <img src="img/look.png" alt="Button"
+                        class="work__button-image">
+                </a>
+            </div>
+            <!-- /.work__image-container -->
+            <div class="work__image-container">
+                <img src="img/right-image.jpg" alt="Image" class="work__image">
+                <a href="#" class="work__button open">
+                    <img src="img/look.png" alt="Button"
+                        class="work__button-image">
+                </a>
+            </div>
+            <!-- /.work__image-container -->
+        </div>
+        <!-- /.work__gallery -->
+        <div class="more">
+            <a href="#" id="load-more">Load More Work</a>
+            <a href="#" id="load-less">Load Less Work</a>
+        </div>
+    </section>
+    <!-- /.work-container -->
+    <section class="work-process-section">
+        <div class="work-process">
+            <h2 class="work-process-title">Our Work Process</h2>
+            <p class="work-process-text">Was years it seasons was there form
+                he
+                in in them
+                together over that,
+                third sixth gathered female creeping bearing behold years.
+            </p>
+        </div>
+        <div class="work-process-video">
+            <a data-fancybox
+                href="https://www.youtube.com/watch?v=jfKfPfyJRdk&ab_channel=LofiGirl">
+                <span></span>
+            </a>
+        </div>
+    </section>
+    <!-- work-process-section -->
+    <section class="services">
+        <div class="container">
+            <div class="services-container">
+                <div class="service">
+                    <img src="img/diamond.png" alt="Service Icon">
+                    <h3 class="service-title">ui / ux design</h3>
+                    <p class="service-text">Be set fourth land god darkness
+                        make it wherein own</p>
+                </div>
+                <div class="service">
+                    <img src="img/arc.png" alt="Service Icon">
+                    <h3 class="service-title">web development</h3>
+                    <p class="service-text">A she'd them bring void moving
+                        third she'd kind fill</p>
+                </div>
+                <div class="service">
+                    <img src="img/phone.png" alt="Service Icon">
+                    <h3 class="service-title">app / mobile</h3>
+                    <p class="service-text">Dominion man second spirit he,
+                        earth they're creeping</p>
+                </div>
+                <div class="service">
+                    <img src="img/game.png" alt="Service Icon">
+                    <h3 class="service-title">game design</h3>
+                    <p class="service-text">Morning his saying moveth it
+                        multiply appear life be</p>
+                </div>
+                <div class="service">
+                    <img src="img/plane.png" alt="Service Icon">
+                    <h3 class="service-title">SEO / marketing</h3>
+                    <p class="service-text">Give won't after land fill creeping
+                        meat you, may</p>
+                </div>
+                <div class="service">
+                    <img src="img/star-service.png" alt="Service Icon">
+                    <h3 class="service-title">photography</h3>
+                    <p class="service-text">Creepeth one seas cattle grass
+                        give moving saw give</p>
+                </div>
+                <div class="service">
+                    <img src="img/magic-wand.png" alt="Service Icon">
+                    <h3 class="service-title">graphic design</h3>
+                    <p class="service-text">Open, great whales air rule for,
+                        fourth life whales</p>
+                </div>
+                <div class="service">
+                    <img src="img/paint-bucket.png" alt="Service Icon">
+                    <h3 class="service-title">illustrations</h3>
+                    <p class="service-text">Whales likeness hath, man kind
+                        for them air two won't</p>
+                </div>
+            </div>
+            <!-- /.services-container -->
+        </div>
+    </section>
+    <!-- services -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="testimonials">
+                <!-- Slider main container -->
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <p class="testimonial-text">“ Outstanding job
+                                and exceeded
+                                all
+                                expectations. It
+                                was a pleasure
+                                to work with them on a sizable first project
+                                and am
+                                looking
+                                forward to start the next one asap.”</p>
+                            <p class="testimonial-author">Michael Hopkins
+                            </p>
+                        </div>
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <p class="testimonial-text">“ Lorem ipsum dolor, sit
+                                amet consectetur adipisicing elit. Ex, rem vitae
+                                placeat omnis necessitatibus ut quasi
+                                perferendis, aliquid consequuntur illo error
+                                porro harum. Sint blanditiis quas aut vitae.
+                                Impedit, ipsum?</p>
+                            <p class="testimonial-author">Lorem, ipsum.</p>
+                        </div>
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <p class="testimonial-text">Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Perspiciatis,
+                                facilis harum quo architecto sapiente nemo
+                                eveniet et aliquid voluptatibus nihil
+                                accusantium praesentium ipsa aperiam tempora
+                                odio sunt ullam assumenda. Sint.</p>
+                            <p class="testimonial-author">Lorem, ipsum dolor.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <!-- /.testimonials -->
+        </div>
+    </section>
+    <!-- /.testimonials-section -->
+    <section class="clients">
+        <div class="container">
+            <div class="clients-container">
+                <div class="client-item"><img src="img/1.png" alt=""
+                        class="client-image"></div>
+                <div class="client-item"><img src="img/2.png" alt=""
+                        class="client-image"></div>
+                <div class="client-item"><img src="img/3.png" alt=""
+                        class="client-image"></div>
+                <div class="client-item"><img src="img/4.png" alt=""
+                        class="client-image"></div>
+                <div class="client-item"><img src="img/5.png" alt=""
+                        class="client-image"></div>
+            </div>
+        </div>
+    </section>
+    <!-- /.clients -->
+    <section class="project">
+        <div class="container">
+            <div class="project-container">
+                <h2 class="project-title">Need a Project?</h2>
+                <p class="project-desc">Let us know what you're looking for in
+                    an
+                    agency. We'll
+                    take a look and see if this could be the start of something
+                    beautiful.</p>
+                <form action="send.php" method="post" class="project-form">
+                    <div class="project-input-group">
+                        <input type="text" name="name" placeholder="Your Name"
+                            required class="project-input">
+                        <input type="email" name="email"
+                            placeholder="Your Email" required
+                            class="project-input">
+                    </div>
+                    <textarea name="yourTitle"
+                        class="project-input textarea-title"
+                        placeholder="Your Title" required></textarea>
+                    <textarea name="yourComment"
+                        class="project-input textarea-comment"
+                        placeholder="Enter your comment" required></textarea>
+                    <button class="project-button">send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- /.project -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="copy-right">
+                    <h2 class="copy-right-title">Piroll Design, Inc.</h2>
+                    <p class="copy-right-desc">© 2017 Piroll. All rights
+                        reserved. <br>Designed by
+                        robirurk.</p>
+                </div>
+                <div class="contacts">
+                    <span class="mail">hello@pirolltheme.com</span>
+                    <span class="tel">+44 987 065 908</span>
+                </div>
+                <div class="footer-links">
+                    <ul class="footer-list">
+                        <li class="footer-list-item">Projects</li>
+                        <li class="footer-list-item">About</li>
+                        <li class="footer-list-item">Services</li>
+                        <li class="footer-list-item">Carreer</li>
+                        <li class="footer-list-item">News</li>
+                        <li class="footer-list-item">Events</li>
+                        <li class="footer-list-item">Contact</li>
+                        <li class="footer-list-item">Legals</li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="footer-social-link">Facebook</a>
+                    <a href="#" class="footer-social-link">Twitter</a>
+                    <a href="#" class="footer-social-link">Instagram</a>
+                    <a href="#" class="footer-social-link">Dribbble</a>
+                </div>
+            </div>
+            <!-- /.footer-content -->
+        </div>
+    </footer>
+    <!-- /.footer -->
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js">
+    </script>
+    <script src="js/swiper-bundle.min.js">
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>
